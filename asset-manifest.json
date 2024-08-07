@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Activity-Static-dashboard/static/css/main.f1c71ac8.css",
+    "main.js": "/Activity-Static-dashboard/static/js/main.44b4c16c.js",
+    "static/js/453.ed3810f9.chunk.js": "/Activity-Static-dashboard/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/Activity-Static-dashboard/index.html",
+    "main.f1c71ac8.css.map": "/Activity-Static-dashboard/static/css/main.f1c71ac8.css.map",
+    "main.44b4c16c.js.map": "/Activity-Static-dashboard/static/js/main.44b4c16c.js.map",
+    "453.ed3810f9.chunk.js.map": "/Activity-Static-dashboard/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1c71ac8.css",
+    "static/js/main.44b4c16c.js"
+  ]
+}

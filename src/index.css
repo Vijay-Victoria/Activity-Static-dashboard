@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #181818; /* Dark background */
+    color: #fff; /* Light text */
+    font-family: sans-serif;
+}
+
+/* Layout */
+.flex {
+    display: flex;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-1 {
+    grid-template-columns: 1fr;
+}
+
+.md:grid-cols-2 {
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+/* Sidebar */
+.sidebar {
+    /* Sidebar styles */
+    background-color: #222;
+}
+
+/* Header */
+.header {
+    /* Header styles */
+    background-color: #222;
+}
+
+/* Cards */
+.card {
+    /* Card styles */
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Activity chart */
+.activity-chart {
+    /* Chart styles */
+    background-color: #282828;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* Recent orders */
+.recent-orders {
+    background-color: #282828; /* Maintain dark background */
+  border-radius: 8px;
+  padding: 1rem;
+  table {
+    width: 100%; /* Stretch table to full width */
+    border-collapse: collapse; /* Remove table borders */
+  }
+  th,
+  td {
+    padding: 0.5rem 1rem; /* Adjust cell padding */
+    border: none; /* Remove table cell borders */
+    color: #fff; /* Light text color */
+    text-align: left; /* Left-align content */
+  }
+  th {
+    font-size: 0.875rem; /* Slightly smaller font size for headers */
+    text-transform: uppercase; /* Convert headers to uppercase */
+  }
+  .text-green-500 {
+    color: #2ecc71; /* Green color for delivered status */
+  }
+  .text-red-500 {
+    color: #f44336; /* Red color for cancelled status */
+  }
+}
+
+/* Customer feedback */
+.customer-feedback {
+    /* Feedback styles */
+    background-color: #282828; /* Maintain dark background */
+    border-radius: 8px;
+    padding: 1rem;
+    h3 {
+      color: #fff; /* Light text color for title */
+      margin-bottom: 0.5rem; /* Reduce margin after title */
+    }
+    .text-gray-400 {
+      color: #ccc; /* Light gray color for feedback text */
+      line-height: 1.5; /* Increase line height for readability */
+    }
+  }
